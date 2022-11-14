@@ -1,27 +1,29 @@
-# BanklineApp
+# Site Criado para a realização do Projeto integrador Utilizando o framework Angular feito através de uma trilha da Dio Patrocinada pelo Santander 📖🟢
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.4.
 
-## Development server
+ #### ✅ - Consumo da api Bank-line
+ * Esse site é a segunda etapa do projeto bank-line Santander
+ * Foi criada uma camada de service onde realizamos a Integração com a api
+ 
+ 
+ #### ✔️ - Criação dos Components utilizando Angular cli
+ * Para criar os components utilizei comandos do angular cli (**ng generate component nomeDoComponent**)
+ * Component de de Correntista onde podemos cadastrar um novo correntista, através da requisição post e listar todos os correntistas através da requisoção Get
+ * Component Movimentacao-list onde podemos listar as movimentações de um determinado correntista através da requiusição Get
+ * Component Movimentacao onde podemos criar uma nova movimentação definindo o tipo dela se é uma receita ou uma despesa, esse component utiliza o metodo get para pegar o correntista, e depois um metodo post para poder criar uma nova movimentação
+  
+   
+ #### ✅ - Utilização do banco de dados
+ * No ambiente de desenvolvimento foi utilizado o banco de dados MySql
+ * No ambiente de produção foi utilizado o banco de dados Postgres para realização do deploy e integração com a plataforma do Heroku
+  
+ #### 🔨 - A realização dos testes foram feitas todas no insominia
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+🎁 Obrigada @DIO pelos aprendizados nessa trilha 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
